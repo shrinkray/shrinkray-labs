@@ -1,14 +1,14 @@
 export const SITE = {
-	name: 'AstroWind',
+	name: 'ShrinkrayLabs Blog',
 
-	origin: 'https://astrowind.vercel.app',
+	origin: 'https://shrinkray-labs.vercel.app/',
 	basePathname: '/',
 
-	title: 'AstroWind — Your website with Astro + Tailwind CSS',
-	description: '🚀 AstroWind is a free and ready to start template to make your website using Astro and Tailwind CSS.',
+	title: 'ShrinkrayLabs Blog',
+	description: 'ShrinkrayLabs is a blog about the Semantic Web, Accessibility, and UX Engineering in the modern web.',
 
-	googleAnalyticsId: false, // or "G-XXXXXXXXXX",
-	googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
+	googleAnalyticsId: 'G-97ZN1P6C1K', // or "G-97ZN1P6C1K", or false
+	googleSiteVerificationId: false, // was 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
 };
 
 export const BLOG = {
