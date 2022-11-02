@@ -1,0 +1,23 @@
+---
+
+const { page } = Astro.props;
+---
+
+<section>
+	<div class="max-w-6xl mx-auto px-4 sm:px-6">
+		<div class="py-12">
+			<div class="text-center pb-0 md:pb-0">
+				<h1 class="text-5xl md:text-[3.50rem] font-bold leading-tighter tracking-tighter mb-4 font-heading">
+					<span class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-500 dark:from-primary-300 dark:to-secondary-300">{ page.title }</span
+					>
+				</h1>
+				<div class="max-w-3xl mx-auto">
+					<p class="text-xl text-gray-600 mb-8 dark:text-slate-400">
+						Shrinkray Labs is a portfolio and blog by Shrinkray Interactive. We're all about making the web better for everyone. 
+						We're writing about all the fun stuff in UX Engineering,
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

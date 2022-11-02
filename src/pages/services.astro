@@ -3,7 +3,7 @@ import { SITE } from '~/config.mjs';
 import { getCanonical, getHomePermalink } from '~/utils/permalinks';
 import Layout from '~/layouts/PageLayout.astro';
 
-// import Hero from '~/components/widgets/Hero.astro';
+import Banner from '~/components/widgets/Banner.astro';
 // import Features from '~/components/widgets/Features.astro';
 // import Features2 from '~/components/widgets/Features2.astro';
 // import Steps from '~/components/widgets/Steps.astro';
@@ -18,10 +18,13 @@ const meta = {
 	description: SITE.description,
 	canonical: getCanonical(getHomePermalink()),
 };
+const page = {
+	title: 'Services'
+}
 ---
 
 <Layout {meta}>
-	<!-- <Hero /> -->
+	<Banner {page}/>
 	<!-- <Features /> -->
 	<!-- <Steps /> -->
 	<!-- <Features2 /> -->

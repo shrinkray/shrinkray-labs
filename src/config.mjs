@@ -25,6 +25,11 @@ export const BLOG = {
 		pathname: '', // empty for /some-post, value for /pathname/some-post 
 	},
 
+	page: {
+		disabled: false,
+		pathname: '', // 
+	},
+
 	category: {
 		disabled: false,
 		pathname: 'category', // set empty to change from /category/some-category to /some-category
