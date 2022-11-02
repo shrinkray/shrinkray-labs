@@ -1,6 +1,6 @@
 ---
 import { Icon } from 'astro-icon';
-import { getHomePermalink } from '~/utils/permalinks';
+import { getHomePermalink, getPermalink } from '~/utils/permalinks';
 ---
 
 <footer class="border-t border-gray-200 dark:border-slate-800">
@@ -62,8 +62,7 @@ import { getHomePermalink } from '~/utils/permalinks';
 						>
 					</li> -->
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Professional Services</a
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={getPermalink('services', 'page')}>Services</a
 						>
 					</li>
 					<li class="mb-2">
