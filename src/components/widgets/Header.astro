@@ -31,6 +31,18 @@ import { getPermalink, getBlogPermalink, getHomePermalink } from '~/utils/permal
 				<li>
 					<a
 						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+						href={getPermalink('about', 'page')}>About</a
+					>
+				</li>
+				<li>
+					<a
+						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+						href={getPermalink('projects', 'page')}>Projects</a
+					>
+				</li>
+				<li>
+					<a
+						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
 						href={getPermalink('services', 'page')}>Services</a
 					>
 				</li>
@@ -38,13 +50,13 @@ import { getPermalink, getBlogPermalink, getHomePermalink } from '~/utils/permal
 					<a
 						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
 						href={getPermalink('useful-resources-to-create-websites', 'post')}
-						>Resources
+						>Uses
 					</a>
 				</li>
 				<li>
 					<a
 						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-						href={getBlogPermalink()}>Blog</a
+						href={getBlogPermalink()}>Articles</a
 					>
 				</li>
 				<li class="md:hidden">

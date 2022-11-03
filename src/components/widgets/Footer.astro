@@ -1,14 +1,13 @@
 ---
 import { Icon } from 'astro-icon';
-import { getHomePermalink, getPermalink } from '~/utils/permalinks';
+import { getPermalink, getBlogPermalink, getHomePermalink } from '~/utils/permalinks';
 ---
-
 <footer class="border-t border-gray-200 dark:border-slate-800">
 	<div class="max-w-6xl mx-auto px-4 sm:px-6">
 		<div class="grid grid-cols-12 gap-4 gap-y-8 sm:gap-8 py-8 md:py-12">
 			<div class="col-span-12 lg:col-span-5">
 				<div class="mb-2">
-					<a class="inline-block font-bold text-xl" href={getHomePermalink()}>Shrinkraylabs</a>
+					<a class="inline-block font-bold text-xl" href={getHomePermalink()}>Shrinkray Labs</a>
 				</div>
 				<div class="text-sm text-gray-600">
 					<a
@@ -26,67 +25,52 @@ import { getHomePermalink, getPermalink } from '~/utils/permalinks';
 				<ul class="text-sm">
 					<li class="mb-2">
 						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Features</a
+							>What might we build?</a
 						>
 					</li>
 					<li class="mb-2">
 						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Security</a
-						>
-					</li>
-					<!-- <li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Team</a
-						>
-					</li> -->
-			
-					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Resources</a
+							>Frameworks & UI</a
 						>
 					</li>
 				</ul>
 			</div>
-			
 			<div class="col-span-6 md:col-span-3 lg:col-span-2">
 				<div class="text-gray-800 dark:text-gray-300 font-medium mb-2">Support</div>
 				<ul class="text-sm">
-					<!-- <li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Docs</a
-						>
-					</li>
-					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Community Forum</a
-						>
-					</li> -->
 					<li class="mb-2">
 						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={getPermalink('services', 'page')}>Services</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Skills</a
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={getPermalink('services', 'page')}>Contact Us</a
 						>
 					</li>
-					
 				</ul>
 			</div>
 			<div class="col-span-6 md:col-span-3 lg:col-span-2">
 				<div class="text-gray-800 dark:text-gray-300 font-medium mb-2">Company</div>
 				<ul class="text-sm">
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={getPermalink('about', 'page')}
 							>About</a
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Blog</a
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={getPermalink('projects', 'page')}
+							>Projects</a
 						>
 					</li>
-				
+					<li class="mb-2">
+						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={getBlogPermalink()}
+							>Articles</a
+						>
+					</li>
+					<li class="mb-2">
+							<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href={getPermalink('useful-resources-to-create-websites', 'post')}
+								>Uses</a
+							>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -101,7 +85,6 @@ import { getHomePermalink, getPermalink } from '~/utils/permalinks';
 						<Icon name="tabler:brand-twitter" class="w-5 h-5" />
 					</a>
 				</li>
-				
 				<li>
 					<a
 						class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
