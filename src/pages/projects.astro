@@ -4,11 +4,11 @@ import { getCanonical, getHomePermalink } from '~/utils/permalinks';
 import Layout from '~/layouts/PageLayout.astro';
 
 import Banner from '~/components/widgets/Banner.astro';
-import Features from '~/components/widgets/Features.astro';
+// import Features from '~/components/widgets/Features.astro';
 // import Features2 from '~/components/widgets/Features2.astro';
 // import Steps from '~/components/widgets/Steps.astro';
 // import Features3 from '~/components/widgets/Features3.astro';
-// import HighlightedPosts from '~/components/blog/HighlightedPosts.astro';
+import HighlightedProjects from '~/components/blog/HighlightedProjects.astro';
 // import FAQs from '~/components/widgets/FAQs.astro';
 // import Stats from '~/components/widgets/Stats.astro';
 // import CallToAction from '~/components/widgets/CallToAction.astro';
@@ -20,17 +20,17 @@ const meta = {
 };
 const page = {
 	title: 'Projects',
-	description: 'Shrinkray Labs is a portfolio and blog by Shrinkray Interactive. I write about UX Engineering and making the web equitable for all.'
+	description: 'Shrinkray Labs is a portfolio and blog by Shrinkray Interactive. These are featured jobs from my career.'
 }
 ---
 
 <Layout {meta}>
 	<Banner {page}/>
-	<Features />
+	<!-- <Features /> -->
 	<!-- <Steps /> -->
 	<!-- <Features2 /> -->
 	<!-- <Features3 /> -->
-	<!-- <HighlightedPosts /> -->
+	<HighlightedProjects />
 	<!-- <FAQs /> -->
 	<!-- <Stats /> -->
 	<!-- <CallToAction />//  -->
