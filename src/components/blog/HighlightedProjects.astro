@@ -48,7 +48,7 @@ const items = await Promise.all(
 							{post.title}
 						</a>
 					</h3>
-					<p class="text-gray-700 dark:text-gray-400">{post.excerpt || post.description}</p>
+					<p class="line-clamp-8 text-gray-700 dark:text-gray-400">{post.excerpt || post.description}</p>
 				</article>
 			))
 		}
