@@ -3,7 +3,7 @@ publishDate: "Nov 21 2022"
 title: "UX Designer and WordPress Developer"
 description: ""
 excerpt: "Hired to fast track design and development to presenting continously updated data."
-image: "~/assets/images/icon-design.jpg"
+image: "~/assets/images/code-figma-people.jpg"
 category: "Projects"
 tags: [wordpress, advanced custom fields, figma, a11y]
 ---
