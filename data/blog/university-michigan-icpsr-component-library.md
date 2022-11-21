@@ -27,7 +27,10 @@ Hired to fast track UX Engineering within a newly formed UX product design group
 
 ### Links
 
-**ResearchDataGov.org** is a product of the federal statistical agencies and units, created in response to the Foundations of Evidence-based Policymaking Act of 2018. The site is the single portal for discovery of restricted data in the federal statistical system. The agencies have provided detailed descriptions of each data asset. Users can search for data by topic, agency, and keywords. Questions related to the data should be directed to the owning agency, using the contact information on the page that describes the data. ResearchDataGov.org is built by and hosted at ICPSR at the University of Michigan, under contract and guidance from the National Center for Science and Engineering Statistics within the National Science Foundation.
+**ICPSR Design System Documentation** is the result of my work. This is output from a ParcelJS bundler, with the goal to deliver a design-system based stylesheet for various web application products including legacy websites. I introduced Parcel as a zero-config performance-based solution helping the team deliver cache resistant stylesheets for several anticipated themes.
+
+- [Static Resources](https://static.dev.icpsr.umich.edu/static/docs/index.html)
+
+**ResearchDataGov.org** is a product of the federal statistical agencies and units, created in response to the Foundations of Evidence-based Policymaking Act of 2018. The site is the single portal for discovery of restricted data in the federal statistical system. ResearchDataGov.org is built by and hosted at ICPSR at the University of Michigan, under contract and guidance from the National Center for Science and Engineering Statistics within the National Science Foundation.
 
 - [Research Data Gov](https://rdg-ui-rdg-uat.apps.cluster0.ocp.icpsr.umich.edu/)
-- [Static Resources](https://umich.edu/icpsr/static/)
