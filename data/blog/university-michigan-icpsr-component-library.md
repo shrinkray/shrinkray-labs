@@ -24,3 +24,10 @@ Hired to fast track UX Engineering within a newly formed UX product design group
 - Built custom design system library delivered in React components
 - Collaborated across all levels in the organization and directly in Agile teams and documentation
 - Delivered creative design thinking solutions, with a strong visual design eye
+
+### Links
+
+**ResearchDataGov.org** is a product of the federal statistical agencies and units, created in response to the Foundations of Evidence-based Policymaking Act of 2018. The site is the single portal for discovery of restricted data in the federal statistical system. The agencies have provided detailed descriptions of each data asset. Users can search for data by topic, agency, and keywords. Questions related to the data should be directed to the owning agency, using the contact information on the page that describes the data. ResearchDataGov.org is built by and hosted at ICPSR at the University of Michigan, under contract and guidance from the National Center for Science and Engineering Statistics within the National Science Foundation.
+
+- [Research Data Gov](https://rdg-ui-rdg-uat.apps.cluster0.ocp.icpsr.umich.edu/)
+- [Static Resources](https://umich.edu/icpsr/static/)
