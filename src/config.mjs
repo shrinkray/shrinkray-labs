@@ -4,7 +4,7 @@ export const SITE = {
 	origin: 'https://shrinkray-labs.vercel.app/',
 	basePathname: '/',
 
-	title: 'ShrinkrayLabs Blog',
+	title: 'ShrinkrayLabs Portfolio',
 	description: 'ShrinkrayLabs is a blog about the Semantic Web, Accessibility, and UX Engineering in the modern web.',
 
 	googleAnalyticsId: 'G-97ZN1P6C1K', // or "G-97ZN1P6C1K", or false
