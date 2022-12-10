@@ -4,8 +4,8 @@ title: "Try the UTM app virtual machine on your M1/M2 silicone mac"
 description: "VirtualBox is not cutting it for a VM on a M1 Mac"
 excerpt: "I tried UTM with outstanding results. If reading the Oracle tech docs is confusing and exhausting check out this new VM platform with a clean UI."
 image: "~/assets/images/utm.jpg"
-category: "Tutorials"
-tags: [virtual machine, ui design, utm]
+category: "Try"
+tags: [virtual machine, ui design, utm, windows]
 ---
 ## The problem
 
