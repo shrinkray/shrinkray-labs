@@ -7,8 +7,8 @@ export const SITE = {
 	title: 'ShrinkrayLabs Portfolio',
 	description: 'ShrinkrayLabs is a blog about the Semantic Web, Accessibility, and UX Engineering in the modern web.',
 
-	googleAnalyticsId: 'G-97ZN1P6C1K', // or "G-97ZN1P6C1K", or false
-	googleSiteVerificationId: false, // was 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
+	googleAnalyticsId: 'G-W1BTE4CBJ9', // or "G-W1BTE4CBJ9", or false
+	googleSiteVerificationId: false, // was 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M', or false
 };
 
 export const BLOG = {

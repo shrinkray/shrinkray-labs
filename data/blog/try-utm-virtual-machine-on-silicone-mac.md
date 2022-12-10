@@ -13,11 +13,15 @@ I needed a Windows virtual machine to test screen reader tools. I initially plan
 
 ## Working solution
 
-Now with the latest (at the time of this post is) [UTM 4.x](https://mac.getutm.app/), we have a complete solution. With little effort you can have your Windows virtual machine, utilizing the [Windows Insider Preview Downloads](<https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewARM64>) (P.S. you do not have to be a Microsoft pro to build this). You do need to setup a user account with just an email address. Once you do, Microsoft makes it easy to find current OS builds. Look to the column on the right of the page if you need Windows 10 or some other preview. UTM provides a kit to install [mobile VMs on your iOS Phone](https://getutm.app/)! Please read the FAQ for details such as supported iOS versions and jailbreaking vs sideloading.
+Now with the latest (at the time of this post is) [UTM 4.x](https://mac.getutm.app/), we have a complete solution. With little effort you can have your Windows virtual machine, utilizing the [Windows Insider Preview Downloads](<https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewARM64>) (P.S. you do not have to be a Microsoft pro to build this). You do need to setup a user account with just an email address. Once you do, Microsoft makes it easy to find current OS builds. Look to the column on the right of the page if you need Windows 10 or some other preview.
 
 On the form selector, choose the build with the highest number, which will probably be the Beta Channel. Confirm your languange then move to download the VHDX file. On some earlier blog posts they recommend converting the *.VHDX* format to *.qcow2*. This is no longer necessary. UTM 4 now works directly with the VHDX formats. The UTM interface is not ground breaking but is straightforward compared to what we have with VirtualBox.
 
 At the time of this writing I had no problems setting up the VM on Montery OS. Find a full video tutorial on the steps to do this using the tutorial by Andrew Tsai, linked below.
+
+### Need a phone VM?
+
+Did you know it was possible to install virtual machines on a phone? I had not considered this but it makes sense. UTM offers a solution and it looks as easy as from a desktop. See their page to learn if this install [mobile VMs on your iOS Phone](https://getutm.app/) will work for your project. Please read the FAQ for details such as supported OS versions and jailbreaking vs sideloading.
 
 ### Resources
 
