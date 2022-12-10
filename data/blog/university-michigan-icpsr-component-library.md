@@ -40,7 +40,7 @@ My contributions were heavy in this document. But this will change as time passe
 - [ReDMAS: Product Detail](https://static.dev.icpsr.umich.edu/static/mocks/rdg/product-detail.html)
 - [ReDMAS: UI](https://static.dev.icpsr.umich.edu/static/mocks/rdg/redmas-reviewer-fresh.html)
 
-The design system itself was created in Figma. That was the basis of the creative team's work. Where several UX/Product Designers contributed to it. I will provide access to my Figma account if you wish to see the form of that work by comparison to the Static Resources website linked above. I signed a non-disclosure agreement, so I will only share this non-public work in a limited fashion.
+The design system itself was created in Figma. That was the basis of the creative team's work, where several UX/Product Designers contributed to it. I will provide screenshots and other examples showing the team's source work.
 
 **ResearchDataGov.org** is a product of the federal statistical agencies and units, created in response to the Foundations of Evidence-based Policymaking Act of 2018. The site is the single portal for discovery of restricted data in the federal statistical system. ResearchDataGov.org is built by and hosted at ICPSR at the University of Michigan, under contract and guidance from the National Center for Science and Engineering Statistics within the National Science Foundation.
 
