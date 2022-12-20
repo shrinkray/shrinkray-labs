@@ -1,28 +1,56 @@
 ---
-import { Icon } from 'astro-icon';
+//import { Icon } from 'astro-icon';
 ---
 
 <section class="relative">
 	<div class="max-w-6xl mx-auto px-4 sm:px-6">
-		<div class="py-12 md:py-20">
+		<div class="pb-12 md:pb-20">
 			<div class="max-w-3xl mx-auto text-center p-6 rounded-md shadow-xl dark:shadow-none">
-				<h2 class="text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-4 font-heading">
-					<span>Astro</span> + <br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
-				</h2>
-				<p class="text-xl text-gray-600 dark:text-slate-400">
-					Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-					waste more time! :P
-				</p>
 
-				<div class="mt-6">
-					<a
-						class="btn text-white bg-primary-600 hover:bg-primary-800 mb-4 sm:mb-0"
-						href="https://github.com/shrinkray/shrinkray-labs"
-						target="_blank"
-						rel="noopener"
-					>
-						<Icon name="tabler:download" class="w-5 h-5 mr-1 -ml-1.5" /> Get template
-					</a>
+				<div class="">
+
+					<div class="flex items-center full-w  dark:bg-gray-900">
+						<div class="container mx-auto">
+							<div class="full-w mx-auto mb-10 p-5 rounded-md shadow-sm">
+								<div class="text-start">
+									<p class="mb-8 text-xl text-gray-600 dark:text-slate-400">
+										Fill up the form below to send a message.
+									</p>
+								</div>
+								<div class="m-7 text-left">
+									<form action="https://api.web3forms.com/submit" method="POST" id="form" aria-label="Form to contact Greg">
+										<input type="hidden" name="access_key" value="265c80e5-65cc-4009-b5c9-679a78f4895f" />
+										<input type="hidden" name="subject" value="New message from Shrinkraylabs Form" />
+										<input type="hidden" name="redirect" value="https://web3forms.com/success" />
+										<input type="checkbox" name="botcheck" id="" style="display: none;" />
+										<div class="mb-6">
+											<label for="name" class=" block mb-2 text-md text-gray-600 dark:text-slate-400">Full Name</label>
+											<input type="text" name="name" id="name" placeholder="John Doe" required class="w-full px-3 py-2 bg-gray-100 placeholder-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:placeholder-gray-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+										</div>
+										<div class="mb-6">
+											<label for="email" class="block mb-2 text-md text-gray-600 dark:text-slate-400">Email Address</label>
+											<input type="email" name="email" id="email" placeholder="you@company.com" required class="w-full px-3 py-2 bg-gray-100 placeholder-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:placeholder-gray-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+										</div>
+										<div class="mb-6">
+											<label for="phone" class="block mb-2 text-md text-gray-600 dark:text-slate-400">Phone Number</label>
+											<input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required class="w-full px-3 py-2 bg-gray-100 placeholder-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:placeholder-gray-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+										</div>
+										<div class="mb-6">
+											<label for="message" class="block mb-2 text-md text-gray-600 dark:text-slate-400">Your Message</label>
+
+											<textarea rows="5" name="message" id="message" placeholder="Your Message" class="w-full px-3 py-2 bg-gray-100 placeholder-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:placeholder-gray-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" required></textarea>
+										</div>
+										<div class="mb-6">
+											<button type="submit" class="w-full px-3 py-4 text-white bg-gradient-to-br from-primary-500 to-secondary-500 dark:from-primary-300 dark:to-secondary-300 rounded-md focus:bg-indigo-600 focus:outline-none">
+												Send Message
+											</button>
+										</div>
+										<p class="text-base text-center text-gray-400" id="result"></p>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
