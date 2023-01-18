@@ -33,12 +33,12 @@ Hired to fast track UX Engineering within a newly formed UX product design group
 
 My contributions were heavy in this document. But this will change as time passes. Example components and prototypes I was heavily involved in were
 
-- [Buttons](https://static.dev.icpsr.umich.edu/static/docs/components.html), [Lozenges](https://static.dev.icpsr.umich.edu/static/docs/components.html), [Wizard](https://static.dev.icpsr.umich.edu/static/docs/components.html)
-- [RDG: My Requests Card](https://static.dev.icpsr.umich.edu/static/mocks/rdg/rdg-cart-datafiles.html)
-- [RDG: My Requests Page](https://static.dev.icpsr.umich.edu/static/mocks/rdg/rdg-cart-instructions.html)
-- [RDG: My Requests Dashboard](https://static.dev.icpsr.umich.edu/static/mocks/rdg/rdg-cart-dashboard.html)
+- [Buttons](https://static.dev.icpsr.umich.edu/static/docs/components/buttons/), [Lozenges](https://static.dev.icpsr.umich.edu/static/docs/components/lozenges/), [Wizard](https://static.dev.icpsr.umich.edu/static/docs/components/wizard/)
+- [RDG: My Requests Card](https://static.dev.icpsr.umich.edu/static/docs/mocks/rdg/rdg-cart-datafiles/)
+- [RDG: My Requests Page](https://static.dev.icpsr.umich.edu/static/docs/mocks/rdg/rdg-cart-instructions/)
+- [RDG: My Requests Dashboard](https://static.dev.icpsr.umich.edu/static/docs/mocks/rdg/rdg-cart-dashboard/)
 - [ReDMAS: Product Detail](https://static.dev.icpsr.umich.edu/static/mocks/rdg/product-detail.html)
-- [ReDMAS: UI](https://static.dev.icpsr.umich.edu/static/mocks/rdg/redmas-reviewer-fresh.html)
+- [ReDMAS: Submission Completed](https://static.dev.icpsr.umich.edu/static/docs/mocks/rdg/redmas-complete/)
 
 The design system itself was created in Figma. That was the basis of the creative team's work, where several UX/Product Designers contributed to it. I will provide screenshots and other examples showing the team's source work.
 
