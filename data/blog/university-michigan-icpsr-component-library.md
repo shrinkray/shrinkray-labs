@@ -37,7 +37,7 @@ My contributions were heavy in this document. But this will change as time passe
 - [RDG: My Requests Card](https://static.dev.icpsr.umich.edu/static/docs/mocks/rdg/rdg-cart-datafiles/)
 - [RDG: My Requests Page](https://static.dev.icpsr.umich.edu/static/docs/mocks/rdg/rdg-cart-instructions/)
 - [RDG: My Requests Dashboard](https://static.dev.icpsr.umich.edu/static/docs/mocks/rdg/rdg-cart-dashboard/)
-- [ReDMAS: Product Detail](https://static.dev.icpsr.umich.edu/static/mocks/rdg/product-detail.html)
+- [ReDMAS: Product Detail](https://static.dev.icpsr.umich.edu/static/docs/mocks/rdg/product-detail/)
 - [ReDMAS: Submission Completed](https://static.dev.icpsr.umich.edu/static/docs/mocks/rdg/redmas-complete/)
 
 The design system itself was created in Figma. That was the basis of the creative team's work, where several UX/Product Designers contributed to it. I will provide screenshots and other examples showing the team's source work.
