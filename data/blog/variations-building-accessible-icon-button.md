@@ -27,12 +27,15 @@ Another approach is to use a combination of text and icons to convey button func
 Below is a code sample represented in recent work on a design system. My recommendation to the team was to do this hard work in the design system to make implementing the design easier for web developers, who only wanted CSS classes for their React frontend. I argued that adding FontAwesome inside some HTML works fine, but linking the FontAwesome font adds weight to the application when we used only a small part of it. Adding SVG code within HTML adds code most people want to ignore. Therefore, adding encoded SVGs as background images do not cause trouble for screen readers and do not exist in the HTML.
 
 ```html
+<!-- HTML -->
 <code class="language-html" data-lang="html">
     <button type="button" class="outlined-btn-sm bg-icon-o-clock" onclick="alert('something')" >Button</button>
 </code>
 ```
 
 ``` scss
+// Modular SCSS
+
 // clock -- usage as waiting for response
 $clockIcon: "data:image/svg+xml,%3Csvg width='18' height='18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 1.5A7.499 7.499 0 001.5 9c0 4.143 3.357 7.5 7.5 7.5s7.5-3.357 7.5-7.5S13.143 1.5 9 1.5zm0 13.548A6.047 6.047 0 012.952 9 6.047 6.047 0 019 2.952 6.047 6.047 0 0115.048 9 6.047 6.047 0 019 15.048zm1.869-3.157l-2.568-1.866a.365.365 0 01-.148-.293V4.766c0-.2.164-.363.363-.363h.968c.2 0 .363.164.363.363v4.285l2.02 1.47a.363.363 0 01.079.508l-.569.784a.365.365 0 01-.508.078z' fill='%23#{str-slice(#{theme.$foreground-white-color}, 2)}'/%3E%3C/svg%3E";
 
