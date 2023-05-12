@@ -1,5 +1,5 @@
 ---
-title: "A new look for a makerspace website: the bigfablab"
+title: "A new look for a makerspace website: the BiG Fab Lab"
 description: "A fresh and modern look for a makerspace website."
 excerpt: "The BiG Fab Lab is much needed resource in this time supporting a larger entrepeneural community. The project continues to grow and I am proud to be a part of it."
 date: "2023-05-12"
