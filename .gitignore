@@ -16,6 +16,13 @@ pnpm-debug.log*
 .env
 .env.production
 
+# from frontmatter plugin
+.frontmatter
+frontmatter.json
+
+# Demo pages
+data/blog/markdown-elements-demo-post.mdx
+
 # macOS-specific files
 .DS_Store
 
