@@ -16,6 +16,10 @@ pnpm-debug.log*
 .env
 .env.production
 
+# from frontmatter plugin
+.frontmatter
+frontmatter.json
+
 # macOS-specific files
 .DS_Store
 
