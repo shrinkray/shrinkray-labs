@@ -33,19 +33,19 @@ const items = await Promise.all(
 			items.map((post) => (
 				<article class="mb-6 transition">
 					<a
-							href={getPermalink(post.slug, 'post')}
-							class="hover:text-primary-600 underline underline-offset-4 decoration-1 decoration-dotted transition ease-in duration-200"
-						><Picture
-						src={post.image}
-						class="object-cover transition-transform duration-200 ease-in-out origin-center lg:hover:scale-110 w-full h-64 mb-6 rounded shadow-lg bg-gray-400 dark:bg-slate-700"
-						widths={[400, 900]}
-						sizes="(max-width: 900px) 400px, 900px"
-						alt={post.title}
-						aspectRatio="16:9"
-					/>
-					<h3 class="mb-2 text-xl font-bold leading-snug sm:text-2xl font-heading">
-							{post.title}
-					</h3></a>
+						href={getPermalink(post.slug, 'post')}
+						class="hover:text-primary-600 underline underline-offset-4 decoration-1 decoration-dotted transition ease-in duration-200"
+					>
+						<Picture
+							src={post.image}
+							class="object-cover transition-transform duration-200 ease-in-out origin-center lg:hover:scale-110 w-full h-64 mb-6 rounded shadow-lg bg-gray-400 dark:bg-slate-700"
+							widths={[400, 900]}
+							sizes="(max-width: 900px) 400px, 900px"
+							alt={post.title}
+							aspectRatio="16:9"
+						/>
+						<h3 class="mb-2 text-xl font-bold leading-snug sm:text-2xl font-heading">{post.title}</h3>
+					</a>
 					<p class="line-clamp-8 text-gray-700 dark:text-gray-400">{post.excerpt || post.description}</p>
 				</article>
 			))

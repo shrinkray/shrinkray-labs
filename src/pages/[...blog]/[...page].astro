@@ -26,15 +26,18 @@ const meta = {
 	title: `Blog ${currentPage > 1 ? `— Page ${currentPage} ` : ''}— ${SITE.name}`,
 	description: SITE.description,
 	canonical: getCanonical(getPermalink(page.url.current)),
-	ogType: "blog",
-	noindex: currentPage > 1
+	ogType: 'blog',
+	noindex: currentPage > 1,
 };
 ---
 
 <Layout {meta}>
 	<Fragment slot="title">
-		News, projects, and discoveries <span class="whitespace-pre">by </span> 
-		<span class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-300 dark:from-primary-500 dark:to-secondary-300">Shrinkray Labs</span>
+		News, projects, and discoveries <span class="whitespace-pre">by</span>
+		<span
+			class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-300 dark:from-primary-500 dark:to-secondary-300"
+			>Shrinkray Labs</span
+		>
 	</Fragment>
 	<BlogList posts={page.data} />
 	<Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />

@@ -71,7 +71,7 @@ oobe\bypassnro
 
 ### Install SPICE tools 🥵
 
-![Install SPICE tools from Windows Explorer drives](../../src/assets/images/spice-installer_6.jpg)
+![Install SPICE tools from Windows Explorer drives](../../assets/images/spice-installer_6.jpg)
 
 23. Find in your Windows Explorer, see **CD Drive (D:) UTM** and install. It will install then ask to reboot. With SPICE tools installed, go to Display Settings, (you can find by right-clicking on the display background) and in contextual menu choose 'Display Settings'. 
 24. Now we have the ability to change the resolution. For my 14-inch Mac, 1800 x 1169 is perfect. 

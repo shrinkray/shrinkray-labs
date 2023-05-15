@@ -5,7 +5,7 @@ import Layout from '~/layouts/PageLayout.astro';
 
 import Banner from '~/components/widgets/Banner.astro';
 // import Features from '~/components/widgets/Features.astro';
- import Features4 from '~/components/widgets/Features4.astro';
+import Features4 from '~/components/widgets/Features4.astro';
 // import Steps from '~/components/widgets/Steps.astro';
 // import Features3 from '~/components/widgets/Features3.astro';
 // import HighlightedPosts from '~/components/blog/HighlightedPosts.astro';
@@ -20,12 +20,13 @@ const meta = {
 };
 const page = {
 	title: 'About',
-	description: 'Shrinkray Labs is a portfolio and blog by Greg Miller, owner of Shrinkray Interactive, LLC. I am focused on inclusive design to build a better web for everyone.'
-}
+	description:
+		'Shrinkray Labs is a portfolio and blog by Greg Miller, owner of Shrinkray Interactive, LLC. I am focused on inclusive design to build a better web for everyone.',
+};
 ---
 
 <Layout {meta}>
-	<Banner {page}/>
+	<Banner {page} />
 	<!-- <Features /> -->
 	<!-- <Steps /> -->
 	<Features4 />

@@ -11,7 +11,8 @@ const { post } = Astro.props;
 	<article>
 		<header>
 			<p class="max-w-3xl mx-auto text-center">
-				<time datetime={post.publishDate}>{getFormattedDate(post.publishDate)}</time> ~ {Math.ceil(post.readingTime)} min read
+				<time datetime={post.publishDate}>{getFormattedDate(post.publishDate)}</time> ~ {Math.ceil(post.readingTime)} min
+				read
 			</p>
 			<h1
 				class="px-4 sm:px-6 max-w-3xl mx-auto text-center text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-8 font-heading"
@@ -20,17 +21,17 @@ const { post } = Astro.props;
 			</h1>
 			<div class="post-image relative">
 				{
-				post.image && (
-					<Picture
-						src={post.image}
-						class="max-w-full lg:max-w-6xl  mx-auto mt-4 mb-6 sm:rounded-md bg-gray-400 dark:bg-slate-700"
-						widths={[400, 900]}
-						sizes="(max-width: 900px) 400px, 900px"
-						alt={post.description}
-						aspectRatio="16:9"
-					/>
-				)
-			}
+					post.image && (
+						<Picture
+							src={post.image}
+							class="max-w-full lg:max-w-6xl  mx-auto mt-4 mb-6 sm:rounded-md bg-gray-400 dark:bg-slate-700"
+							widths={[400, 900]}
+							sizes="(max-width: 900px) 400px, 900px"
+							alt={post.description}
+							aspectRatio="16:9"
+						/>
+					)
+				}
 			</div>
 		</header>
 		<div
