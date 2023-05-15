@@ -1,5 +1,5 @@
 ---
-publishDate: "Dec 1 2022"
+publishDate: "May 15, 2023"
 title: "Try the UTM app virtual machine on your M1/M2 silicone mac"
 description: "VirtualBox is not cutting it for a VM on a M1 Mac"
 excerpt: "I tried UTM with outstanding results. If reading the Oracle tech docs is confusing and exhausting check out this new VM platform with a clean UI."
@@ -7,6 +7,7 @@ image: "~/assets/images/utm.jpg"
 category: "Try"
 tags: [virtual machine, ui design, utm, windows]
 ---
+Revised: Originally published on Dec 1 2022
 ## The problem
 
 I needed a Windows virtual machine to test screen reader tools. I initially planned to use VirtualBox, but my current machine is an M1 Silicone. I found conflicting info on whether this was possible. On VirtualBox docs and Reddit, you'll find people looking for a solution. UTM is referenced in some posts with links to a blog post for setting up an earlier version of UTM. I found this problematic.
@@ -17,7 +18,53 @@ Now with the latest (at the time of this post is) [UTM 4.x](https://mac.getutm.a
 
 On the form selector, choose the build with the highest number, which will probably be the Beta Channel. Confirm your languange then move to download the VHDX file. On some earlier blog posts they recommend converting the *.VHDX* format to *.qcow2*. This is no longer necessary. UTM 4 now works directly with the VHDX formats. The UTM interface is not ground breaking but is straightforward compared to what we have with VirtualBox.
 
-At the time of this writing I had no problems setting up the VM on Montery OS. Find a full video tutorial on the steps to do this using the tutorial by Andrew Tsai, linked below.
+At the time of this writing I had no problems setting up the VM on Montery OS. Find a full video tutorial on the steps to do this using the tutorial by Andrew Tsai, linked below. 
+
+## Installing Windows 10/11 Disc Image
+
+1. Download [UTM 4.x App](https://mac.getutm.app/)
+2. Install UTM on your Mac Silicone machine
+3. The trial period is three months so if you have something installed for longer, Windows will start but will not be activated and you will not be able to use the OS. 
+4. On Windows Insider account look for Windows 11 on Arm Insider Preiew
+5. On select edition, Choose the Beta Channel, or latest version 
+6. Then select language, in my case it is the English (United States) 
+7. It can take up to 30 minutes to download the file.
+
+### Setup UTM
+
+8. Back in UTM Choose Create a New Virtual Machine button
+9. You want the Virtualize button, Emulate will run much slower
+10. The OS is Windows, on that dialog we want to choose to import the VHDX image, click Browse to select the file we've downloaded
+11. Ensure the options for UEFI Boot and Drivers for SPICE tools are checked
+12. Now allocate half the memory of our computer  and half the cores
+13. Make a shared folder in your Documents folder; call it UTM Shared folder, (something like that)
+14. On the summary view, you should have the following options:
+Engine: QEMU, use virtualization. Architecture: ARM64 (Arch64); System: QEMU 7.0 ARM Virtual Machine; RAM: 4GB; CPU: 4 cores; Disk: 64GB; Network: Operating System: Windows 11; Skip boot image, share directory. 
+15. Save
+
+### Setup Internet Connection
+16. In UTM you'll see the new VM, click the play button to start the VM
+17. One of the problems with the setup is that windows requires the Internet to complete this setup processes. 
+18. Hold down the Function key, Shift + F10
+19. This will launch the command prompt (terminal). this will help us bypass the known internet network error. At the prompt type: `oobe\bypassnro` and hit enter
+
+### Complete Windows Setup
+
+20. The whole virtual machine will restart add a keyboard, skip keyboard layout, ... When you get to the Let's connect you to a network, click on the WiFi icon, click 'I don't have internet' and click 'continue with limited setup'.
+21. In next dialog, agree to license agreement, enter your Name then Next, Next, Next, Accept and Windows will now finish the setup process.
+22. Next window, asks you to install a new build of Windows, choose 'Close'. 
+
+### Install SPICE tools
+
+23. Back in UTM, with SPICE tools downloaded, find in your Windows Explorer and choose to install. It will reboot your Windows install where you will need to login. With SPICE tools installed, go to Display Settings, (you can find by right-clicking on the display background) and in contextual menu choose 'Display Settings'. 
+24. Now we have the ability to change the resolution. That might be 1920x1000, you will need to scroll down to find the resolution you want.
+25. in the UTM Shared folder, you can use it to transfer files between your Mac and Windows VM.
+
+## Installation is complete
+
+We are now able to run our VM with Windows 11 on our M1/M2 Mac. We can share files between the two systems. We can also change the resolution of the VM. Use the keyboard to copy and paste text between the two systems using windows key + C (copy) and windows key + V (paste).
+
+
 
 ### Need a phone VM?
 
